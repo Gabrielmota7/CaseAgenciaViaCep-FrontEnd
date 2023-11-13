@@ -2,15 +2,14 @@
 <div>
     <h2>Informações do CEP</h2>
     <label for="cep">CEP:</label>
-    <input type="text" [(ngModel)]="cep" name="cep" placeholder="Digite o CEP" />
-    <button (click)="searchCep()">Buscar</button>
+    <input class="inputCep" type="text" [(ngModel)]="cep" name="cep" placeholder="Digite o CEP" />
+    <button class="botao" (click)="searchCep()">Buscar</button>
   
-    <div *ngIf="cepData">
+    <div class="card" *ngIf="cepData">
       <h3>Dados do CEP {{ cepData.cep }}</h3>
       <p>Logradouro: {{ cepData.logradouro }}</p>
       <p>Bairro: {{ cepData.bairro }}</p>
       <p>Cidade: {{ cepData.localidade }}</p>
-      <p>Estado: {{ cepData.uf }}</p>
     </div>
   </div>
   
