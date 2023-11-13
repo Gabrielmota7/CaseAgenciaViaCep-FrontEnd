@@ -16,7 +16,6 @@ export class CepClienteComponent {
     this.cepService.getCepInfo(this.cep).subscribe(
       (data) => {
         this.cepData = data;
-        
       },
       (error) => {
         console.error('Error fetching CEP data', error);
