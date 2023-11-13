@@ -1,27 +1,29 @@
-# ViaCepCase
+# 📪 CaseAgenciaViaCep-FrontEnd
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.2.10.
+> uma API para case técnico e estudo em java 17+ utilizando spring e api pública ViaCep com repositório público
 
-## Development server
+## pré requisitos
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+Projeto foi gerado através do [Angular CLI](https://github.com/angular/angular-cli) versão 15.2.10.
 
-## Code scaffolding
+* Angular Js 15.2.10
+* Rodar API Back-End Case Agencia
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+### 🚀 Rodando a Api
 
-## Build
+```bash
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+# Clone este repositório
+$ git clone <https://github.com/Gabrielmota7/CaseAgenciaViaCep-FrontEnd.git>
 
-## Running unit tests
+# Para rodar o projeto
+$ ng serve 
+ 
+```
+## para acessar servidor DEV
+`http://localhost:4200/`
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
 
-## Running end-to-end tests
+### Status do projeto
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+Em desenvolvimento 🚧
