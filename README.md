@@ -1,6 +1,6 @@
 # 📪 CaseAgenciaViaCep-FrontEnd
 
-> uma API para case técnico e estudo em java 17+ utilizando spring e api pública ViaCep com repositório público
+> Projeto Angular para Case com implementação de BFF com API pública
 
 ## pré requisitos
 
@@ -15,6 +15,9 @@ Projeto foi gerado através do [Angular CLI](https://github.com/angular/angular-
 
 # Clone este repositório
 $ git clone <https://github.com/Gabrielmota7/CaseAgenciaViaCep-FrontEnd.git>
+
+# Dentro do projeto execute o comando 
+$ npm install
 
 # Para rodar o projeto
 $ ng serve 
